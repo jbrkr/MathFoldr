@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'ABCDiatypeSemi-MonoVariableTrial-Regular';
+  src: url('./diatype_semi/ABCDiatypeSemi-MonoVariable-Trial.ttf') format("truetype-variations");
+  font-weight: 1 999;
+}
+
+.diatype-semi, .diatype-semi2, .diatype-semi3 {
+  font-family: 'ABCDiatypeSemi-MonoVariableTrial-Regular';
+  transition: font-weight .45s ease-out;
+}
+
+.diatype-semi:hover, .diatype-semi2:hover {
+  font-weight: 999;
+}
+.diatype-semi3:hover {
+  font-weight: 200;
+}
+
+
+@font-face {
+  font-family: 'PPSupplyMono-Regular';
+  src: url('./supply/PPSupplyMono-Regular.otf') format("opentype");
+  
+}
+
+@font-face {
+  font-family: 'ABCDiatypeMonoVariableTrial-Regular';
+  src: url('./diatype_mono/ABCDiatypeMonoVariable-Trial.ttf') format("truetype-variations");
+  font-weight: 1 999;
+}
+
+.diatype-mono, .diatype-mono2, .diatype-mono3 {
+  font-family: 'ABCDiatypeMonoVariableTrial-Regular';
+  transition: font-weight .45s ease-out;
+}
+
+.diatype-mono:hover, .diatype-mono2:hover {
+  font-weight: 999;
+}
+.diatype-mono3:hover {
+  font-weight: 200;
+}

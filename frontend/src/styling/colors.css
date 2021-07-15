@@ -1,0 +1,40 @@
+:root {
+   /* Palette */
+   --blue-one:  rgba(192, 218, 218, 1);
+   --blue-two:	rgba(233, 244, 244, 1);
+   --blue-three:rgba(155, 220, 215, 1);
+   --blue-four:	rgba( 48, 114, 127, 1);
+   --blue-five:	rgba(114, 185, 183, 1);
+
+
+
+   /* Placeholders for later */
+   --white-color: #fff;
+   --black-color: #42413d;
+   --gray-color: #f6f5f1;
+   --gray-dark-color: #d6d5d2;
+   --green-color: #20ae44;
+   --red-color: #ff6124;
+   --yellow-color: #fae361; 
+  
+  /* App Theme / Brand */
+  --primary-color: var(--blue-five);
+  --destructive-color: var(--red-color);
+  --text-on-light-bg-color: var(--black-color);
+  --text-on-dark-bg-color: var(--white-color);
+
+}
+
+.Header {
+  --background-color: var(--primary-color);
+  --color: var(--text-on-light-bg-color);
+
+  background-color: var(--background-color);
+  color: var(--color);
+  }
+
+
+.App-link {
+  --color: var(--destructive-color);
+  color: var(--color);
+}
