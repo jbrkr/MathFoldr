@@ -1,0 +1,11 @@
+pandas = "*"
+uvicorn = "*"
+fastapi = "*"
+aiofiles = "*"
+databases = {extras = ["postgresql"], version = "*"}
+
+
+#python-multipart = "*"
+#python-jose = "*"
+#passlib = {extras = ["bcrypt"], version = "*"}
+#python_version = "3.8"
