@@ -1,0 +1,20 @@
+
+
+
+.Search {
+	position: absolute;
+	top: 50%;
+	width: 100vw;
+
+}
+ 
+ .Search-Box {
+ 	border: 10px solid black;
+
+ }
+
+ .Search-Input {
+ 	height: 10vh;
+ 	width:  25vw;
+
+ }
