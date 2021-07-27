@@ -1,0 +1,104 @@
+{
+  "type": [
+    "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  ],
+  "modified": "2021-07-17T19:35:36.882Z",
+  "license": [
+    {
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "notation": [
+        "CC0"
+      ]
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "topConcepts": [
+    {
+      "uri": "http://www.wikidata.org/entity/Q217413"
+    }
+  ],
+  "concepts": [
+    {
+      "uri": "http://www.wikidata.org/entity/Q217413",
+      "notation": [
+        "Q217413"
+      ],
+      "prefLabel": {
+        "en": "category theory"
+      },
+      "occurrences": [
+        {
+          "relation": "http://schema.org/about",
+          "count": 52
+        }
+      ],
+      "narrower": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q1959790"
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q18376327"
+        }
+      ],
+      "subjectOf": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q919107"
+        }
+      ]
+    },
+    {
+      "uri": "http://www.wikidata.org/entity/Q1959790",
+      "notation": [
+        "Q1959790"
+      ],
+      "prefLabel": {
+        "en": "catamorphism"
+      },
+      "occurrences": [
+        {
+          "relation": "http://schema.org/about",
+          "count": 6
+        }
+      ],
+      "broader": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q217413"
+        }
+      ]
+    },
+    {
+      "uri": "http://www.wikidata.org/entity/Q18376327",
+      "notation": [
+        "Q18376327"
+      ],
+      "prefLabel": {
+        "en": "categorical logic"
+      },
+      "occurrences": [
+        {
+          "relation": "http://schema.org/about",
+          "count": 4
+        }
+      ],
+      "broader": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q217413"
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q1005222"
+        }
+      ]
+    },
+    {
+      "uri": "http://www.wikidata.org/entity/Q919107",
+      "notation": [
+        "Q919107"
+      ],
+      "prefLabel": {
+        "en": "product"
+      }
+    }
+  ]
+}

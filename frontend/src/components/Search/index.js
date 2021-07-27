@@ -19,7 +19,7 @@ const Search = ( props ) => {
       };
     
 
-    const [searchText, setSearchText] = useState('Q1470929');
+    const [searchText, setSearchText] = useState('Search . . .');
 
     const myChangeHandler = (event) => {
       setSearchText(event.target.value)
@@ -33,7 +33,7 @@ const Search = ( props ) => {
         <div className ="Search">
 
         <div className="Search-Box">
-        <input className="Search-Input" type="text" name='search' onChange={myChangeHandler}/>
+        <input className="Search-Input" type="text" name='search' onChange={myChangeHandler} placeholder={searchText}/>
         
 
         <button className="Function-button" onClick={handleSearchEnter}>Search</button>

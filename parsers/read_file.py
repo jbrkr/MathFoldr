@@ -1,7 +1,6 @@
 import time
 import json
 
-
 def read_json_file(path):
     print("Processing: " + path)
     t1 = time.time()
@@ -11,5 +10,3 @@ def read_json_file(path):
     print(t)
     print() 
     return data
-
-    

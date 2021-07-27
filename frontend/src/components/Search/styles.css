@@ -9,12 +9,21 @@
 }
  
  .Search-Box {
- 	border: 10px solid black;
+ 	
 
  }
 
  .Search-Input {
  	height: 10vh;
+    border: none;
+    border-bottom: 1px solid blue;
+    text-decoration: none;
  	width:  25vw;
+    font-size: 24px;
+    
 
  }
+
+  .Search-Input:focus {
+    outline: none;
+    }

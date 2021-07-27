@@ -11,7 +11,7 @@ for i in range(40):
     
     stanzafilenames.append(output_path)
     
-    file = json_to_dict(stanzafilenames[0])
+    file = json_to_dict(stanzafilenames[i])
     print(output_path)
     for documentCt in range(len(file)):
         currDocument = file[documentCt]
@@ -19,16 +19,18 @@ for i in range(40):
         for sentenceCt in range(len(currDocument)):
             currSentence = currDocument[sentenceCt]
             for token in currSentence:
-                token['doc_index'] = overallDocCount
-                token['sent_index'] = sentenceCt                
+                token['document_id'] = overallDocCount
+                token['sentence_id'] = sentenceCt                
             if overallDocCount == 0:
                 stanzaDF = pd.DataFrame(currSentence)
             else: 
                 currSentenceDf = pd.DataFrame(currSentence)
                 stanzaDF = stanzaDF.append(currSentenceDf)
 
-stanzaDF['model'] = 'stanza'
-stanzaDF['corpus'] = 'nLab'
+    stanzaDF['model'] = 'stanza'
+    stanzaDF['dataset'] = 'nLab'
 
-file_name = 'stanza_nlab_wordlevel.csv'
-stanzaDF.to_csv(file_name, sep='\t')
+    file_name = 'stanza_nlab_wordlevel_'+str(ct)+'.csv'
+    stanzaDF.to_csv(file_name, sep='\t')
+    stanzaDF = []
+    currSentenceDf = []
