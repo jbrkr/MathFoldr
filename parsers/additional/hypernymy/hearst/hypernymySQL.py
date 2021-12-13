@@ -29,7 +29,7 @@ hyd = [{
         'hyp': hy_hearst.find_hyponyms(i[0])
     } for i in sents]
 
-hypernyms = []
+hypernyms = [] 
 flat_hyp = [j for j in hyd if len(j['hyp']) > 0]
 [hypernyms.append(k) for k in flat_hyp]
 print("Finished " + i)

@@ -1,0 +1,2 @@
+ec2-18-116-80-30.us-east-2.compute.amazonaws.com 
+Fl1-env.eba-wp9fk9yc.us-east-2.elasticbeanstalk.com

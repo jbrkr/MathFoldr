@@ -182,8 +182,8 @@ h = [ (
                 ),
                 (
                     '(NP_\\w+ (, )?compare to (NP_\\w+ ? (, )?(and |or )?)+)',
-                    'first'
-                ),
+                    'first' 
+                ), 
                 (
                     '(NP_\\w+ (, )?among -PRON- (NP_\\w+ ? '
                     '(, )?(and |or )?)+)',

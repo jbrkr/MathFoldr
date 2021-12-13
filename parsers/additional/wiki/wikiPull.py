@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-
+ 
 def get_wiki(term):
     # term ~= /wiki/category_theory
     qry = "https://en.wikipedia.org"+term
